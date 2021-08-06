@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oZq-aB-bwJ">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Auto Loyout-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLoyout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XsZ-J6-XBw">
+                                <rect key="frame" x="16" y="62" width="343" height="60"/>
+                                <color key="backgroundColor" red="0.89050906466454571" green="0.8461152505341506" blue="0.20978077214609767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Viy-cz-gM2">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="kci-9J-YvZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button A">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonATapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gih-NI-kkw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOU-no-hys">
+                                <rect key="frame" x="16" y="519" width="343" height="60"/>
+                                <color key="backgroundColor" red="0.89050906470000002" green="0.84611525050000003" blue="0.20978077210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ka4-e6-35j">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="Y5o-j9-RBw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button C">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="she-DV-iur">
+                                <rect key="frame" x="16" y="587" width="149" height="60"/>
+                                <color key="backgroundColor" red="0.74844278190000002" green="1" blue="0.25893888030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="5us-tU-JD5">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="149" id="ZK8-j2-t9e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button D">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdU-aC-tps">
+                                <rect key="frame" x="210" y="587" width="149" height="60"/>
+                                <color key="backgroundColor" red="0.81482358444194769" green="0.48784207504673649" blue="0.90693908379999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button E">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaM-IC-znE">
+                                <rect key="frame" x="16" y="130" width="343" height="60"/>
+                                <color key="backgroundColor" red="0.89050906470000002" green="0.84611525050000003" blue="0.20978077210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ckB-4c-5iJ">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="80"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="cq3-9A-L8W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button B">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FaM-IC-znE" secondAttribute="trailing" constant="16" id="2g8-PG-a0X">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="she-DV-iur" firstAttribute="top" secondItem="VOU-no-hys" secondAttribute="bottom" constant="8" symbolic="YES" id="2rU-zF-Rn8"/>
+                            <constraint firstItem="she-DV-iur" firstAttribute="height" secondItem="JdU-aC-tps" secondAttribute="height" id="3Mf-Mq-hoX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JdU-aC-tps" secondAttribute="bottom" constant="20" id="6bE-1t-Ltc"/>
+                            <constraint firstItem="JdU-aC-tps" firstAttribute="baseline" secondItem="she-DV-iur" secondAttribute="baseline" id="ADz-xY-sUs"/>
+                            <constraint firstItem="FaM-IC-znE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Bh1-vT-5lX">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VOU-no-hys" secondAttribute="trailing" constant="16" id="BpR-1r-4nG">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="XsZ-J6-XBw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="CCj-zc-yWP"/>
+                            <constraint firstItem="she-DV-iur" firstAttribute="width" secondItem="JdU-aC-tps" secondAttribute="width" id="Cl1-LJ-LmV"/>
+                            <constraint firstItem="XsZ-J6-XBw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="E26-QJ-bPo">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="she-DV-iur" secondAttribute="bottom" constant="20" id="Vhg-Ku-fzg"/>
+                            <constraint firstItem="FaM-IC-znE" firstAttribute="top" secondItem="XsZ-J6-XBw" secondAttribute="bottom" constant="8" symbolic="YES" id="XLG-x1-ZOr"/>
+                            <constraint firstItem="she-DV-iur" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dKK-Bf-ZCa">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="JdU-aC-tps" firstAttribute="leading" secondItem="she-DV-iur" secondAttribute="trailing" constant="45" id="dY9-W2-6YA"/>
+                            <constraint firstItem="VOU-no-hys" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="eqf-Mi-p81">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JdU-aC-tps" secondAttribute="trailing" constant="16" id="hPi-5C-v3h">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XsZ-J6-XBw" secondAttribute="trailing" constant="16" id="q2a-2x-9qc">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Auto Loyout" id="9a8-On-825">
+                        <barButtonItem key="rightBarButtonItem" image="arrow.clockwise" catalog="system" id="yot-bf-G8l">
+                            <connections>
+                                <action selector="refreshItemTapped:" destination="BYZ-38-t0r" id="pKI-l8-u7u"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="buttonDOutlet" destination="she-DV-iur" id="77p-04-5d1"/>
+                        <outlet property="buttonEOutlet" destination="JdU-aC-tps" id="B0E-gs-q0R"/>
+                        <outletCollection property="styleOutletsCollection" destination="she-DV-iur" collectionClass="NSMutableArray" id="LXC-TV-GQX"/>
+                        <outletCollection property="styleOutletsCollection" destination="JdU-aC-tps" collectionClass="NSMutableArray" id="LYv-US-aIR"/>
+                        <outletCollection property="styleOutletsCollection" destination="VOU-no-hys" collectionClass="NSMutableArray" id="jhB-6B-XEV"/>
+                        <outletCollection property="styleOutletsCollection" destination="FaM-IC-znE" collectionClass="NSMutableArray" id="gnn-GM-igP"/>
+                        <outletCollection property="styleOutletsCollection" destination="XsZ-J6-XBw" collectionClass="NSMutableArray" id="diJ-QE-Xd1"/>
+                        <outletCollection property="styleOutletsCollection" destination="she-DV-iur" collectionClass="NSMutableArray" id="LCJ-6D-5f7"/>
+                        <outletCollection property="styleOutletsCollection" destination="she-DV-iur" collectionClass="NSMutableArray" id="ro4-ja-JhC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.20000000000005" y="61.619190404797607"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NgS-8C-JH2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oZq-aB-bwJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CbA-eN-67E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.90693908379999999" green="0.85840713010000003" blue="0.71023123239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.87936305209999999" green="0.89000000000000001" blue="0.6067868287" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="22"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="35"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="S4W-4F-G7b"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LDN-PG-nIe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="78.75" y="62.323943661971832"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
