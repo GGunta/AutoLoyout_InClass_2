@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Auto Loyout-->
+        <!--Auto Layout-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLoyout" customModuleProvider="target" sceneMemberID="viewController">
@@ -127,7 +127,7 @@
                             </constraint>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Auto Loyout" id="9a8-On-825">
+                    <navigationItem key="navigationItem" title="Auto Layout" id="9a8-On-825">
                         <barButtonItem key="rightBarButtonItem" image="arrow.clockwise" catalog="system" id="yot-bf-G8l">
                             <connections>
                                 <action selector="refreshItemTapped:" destination="BYZ-38-t0r" id="pKI-l8-u7u"/>
